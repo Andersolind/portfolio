@@ -1,6 +1,6 @@
-const author = "Vasile Novatchii";
+const author = "Anders Lind";
 const description =
-	"Software developer from Moldova, Republic of, who loves to develop beautiful websites, single page applications, customer relationship management or code from scratch using React and Next.js";
+	"Software developer from Mimco, Ontario who loves to develop beautiful websites, single page applications, customer relationship management or code from scratch using React and Next.js";
 const url = "https://vasile-novatchii.netlify.app";
 export const AppMetadata = {
 	metadataBase: new URL("https://vasile-novatchii.netlify.app/"),
@@ -13,11 +13,12 @@ export const AppMetadata = {
 		icon: "/favicon.png"
 	},
 	keywords: [
-		"Vasile Novatchii",
-		"Vasile Novatchii - software developer",
+		"Anders Lind",
+		"Anders Lind - Lead Software developer",
 		"Frontend developer",
 		"Flutter developer",
 		"Portfolio website",
+		"React Native",
 		"Frontend Developer Portfolio"
 	],
 	creator: author,
