@@ -6,9 +6,9 @@ import { LazyMotion, domAnimation, useInView } from "framer-motion";
 const TimeLineData = [
 	{ year: 2023, text: "Start my journey as a Flutter developer" },
 	{ year: 2022, text: "Start my journey as a React developer" },
-	{ year: 2021, text: "Dive completely into React.js" },
-	{ year: 2018, text: "Work as a WordPress developer" },
-	{ year: 2017, text: "Start a 3mo WordPress internship" }
+	{ year: 2019, text: "Started working at RBC - Online Banking (OLB)- Angular Developer" },
+	{ year: 2010, text: "Worked at the Ministry of Education" },
+	{ year: 2008, text: "Started working as a developer at OCET" }
 ];
 
 export function TimeLine() {
