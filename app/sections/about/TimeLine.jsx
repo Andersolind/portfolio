@@ -7,6 +7,9 @@ const TimeLineData = [
 	{ year: 2023, text: "Start my journey as a Flutter developer" },
 	{ year: 2022, text: "Start my journey as a React developer" },
 	{ year: 2019, text: "Started working at RBC - Online Banking (OLB)- Angular Developer" },
+	{ year: 2017 , text: "Career Cruising - Full Stak Developer" },
+	
+	 {year :2014 , text : "University Health Network (UHN), Contract "},
 	{ year: 2010, text: "Worked at the Ministry of Education" },
 	{ year: 2008, text: "Started working as a developer at OCET" }
 ];
