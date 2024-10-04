@@ -1,6 +1,6 @@
 const author = "Anders Lind";
 const description =
-	"Software developer from Mimco, Ontario who loves to develop beautiful websites via the WWW single page applications, customer relationship management or code from scratch using React and Next.js";
+	"Software developer from Toronto, Ontario who loves to develop beautiful websites via the WWW single page applications, customer relationship management or code from scratch using React and Next.js";
 const url = "https://snapcheckit.com/";
 export const AppMetadata = {
 	metadataBase: new URL("https://snapcheckit.com/"),
