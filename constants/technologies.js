@@ -1,10 +1,10 @@
 import { AiFillHtml5, AiOutlineAntDesign, AiFillGithub, AiFillGitlab } from "react-icons/ai";
-import { DiCss3, DiVisualstudio } from "react-icons/di";
+import { DiCss3, DiReact, DiVisualstudio } from "react-icons/di";
 import { IoLogoJavascript } from "react-icons/io";
 import { FaReact, FaWordpressSimple, FaFigma, FaTrello } from "react-icons/fa";
 import { BsBootstrap } from "react-icons/bs";
-import { TbBrandNextjs, TbBrandTailwind } from "react-icons/tb";
-import { RiFlutterFill } from "react-icons/ri";
+import { TbBrandNextjs, TbBrandReactNative, TbBrandTailwind } from "react-icons/tb";
+import { RiFlutterFil, RiFlutterFill } from "react-icons/ri";
 import AdobeXDIcon from "public/assets/svg/adobexd.svg";
 import ZeplinIcon from "public/assets/svg/zeplin.svg";
 import WebstormIcon from "public/assets/svg/webstorm.svg";
@@ -17,7 +17,10 @@ import StyledIcon from "public/assets/svg/styledcomponents.svg";
 export const TECHNOLOGIES = [
 	{
 		category: "Mobile",
-		items: [{ name: "Flutter", icon: <RiFlutterFill size={32} /> }]
+		items: [
+	    { name: "Flutter", icon: <RiFlutterFill size={32} /> },
+		{ name: "React Native", icon: <TbBrandReactNative   size={32} /> }
+		]
 	},
 	{
 		category: "Front-end",
