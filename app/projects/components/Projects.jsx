@@ -36,7 +36,16 @@ export function Projects({ projects }) {
 
 		stack: { tag: '4' },
 		title: "TD", createdAt: ""
+	},
+	{
+		_id: "5", description: "GOA", images: [{original:"https://www.alberta.ca/system/files/styles/responsive_2080/private/hcrf-patient-doctor-banner.jpg?itok=nbK3v3K1",lazy:"loading"}],
+		liveUrl: "https://www.alberta.ca/all-services",
+
+		stack: { tag: '4' },
+		title: "Goverment Of Alberta", createdAt: ""
 	}
+
+	
 	
 ];
 	return (
