@@ -19,7 +19,8 @@ export function WelcomeSection() {
 		"build React Native for Android/iOS",
 		"convert design into modern UI",
 		"build interactive UI using React",
-		"develop websites using Next.js"
+		"develop websites using Next.js",
+		"Develop Angular Applications"
 	]);
 
 	const onClick = (e) => scrollToEl(e);
