@@ -21,21 +21,21 @@ export function Projects({ projects }) {
 		liveUrl: "https://oilchangeintoronto.ca",
 
 		stack: { tag: '3' },
-		title: "Oil Change in Toronto", stack: "React", createdAt: ""
+		title: "Oil Change in Toronto", createdAt: ""
 	},
 	{
 		_id: "3", description: "All Type Transmission", images: [{original:"https://img1.wsimg.com/isteam/stock/2224/:/rs=w:1920,m",lazy:"loading"}],
 		liveUrl: "https://transmissionrepairintoronto.com/",
 
 		stack: { tag: '3' },
-		 stack: "React", title: "All Type Transmission", createdAt: ""
+		 title: "All Type Transmission", createdAt: ""
 	},
 	{
 		_id: "4", description: "TD", images: [{original:"https://www.td.com/content/dam/wealth/images/direct-investing/td-logo-en.png",lazy:"loading"}],
 		liveUrl: "https://www.td.com/",
 
 		stack: { tag: '4' },
-		title: "TD", stack: "React", createdAt: ""
+		title: "TD", createdAt: ""
 	}
 	
 ];
