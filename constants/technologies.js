@@ -18,8 +18,8 @@ export const TECHNOLOGIES = [
 	{
 		category: "Mobile",
 		items: [
-	    { name: "Flutter", icon: <RiFlutterFill size={32} /> },
-		{ name: "React Native", icon: <TbBrandReactNative   size={32} /> }
+			{ name: "Flutter", icon: <RiFlutterFill size={32} /> },
+			{ name: "React Native", icon: <TbBrandReactNative size={32} /> }
 		]
 	},
 	{

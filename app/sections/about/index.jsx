@@ -25,7 +25,7 @@ export function AboutSection() {
 						}}
 					>
 						<p>
-							My name is Anders Lind. I have been writing code for  the web for over 14 years.
+							My name is Anders Lind. I have been writing code for the web for over 14 years.
 							</p>
 							#everythingisfine
 					</div>

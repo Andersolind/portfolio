@@ -7,9 +7,8 @@ const TimeLineData = [
 	{ year: 2023, text: "Started my journey as a React Native developer" },
 	{ year: 2022, text: "Started my journey as a React developer" },
 	{ year: 2019, text: "Started working at RBC - Online Banking (OLB)- Angular Developer" },
-	{ year: 2017 , text: "Career Cruising - Full Stack Developer" },
-	
-	 {year :2014 , text : "University Health Network (UHN), Contract "},
+	{ year: 2017, text: "Career Cruising - Full Stack Developer" },
+	{ year: 2014, text: "University Health Network (UHN), Contract " },
 	{ year: 2010, text: "Worked at the Ministry of Education" },
 	{ year: 2008, text: "Started working as a developer at OCET" }
 ];
@@ -42,7 +41,7 @@ export function TimeLine() {
 		if (carouselRef.current) {
 			const index = Math.round(
 				(carouselRef.current.scrollLeft / (carouselRef.current.scrollWidth * 0.7)) *
-					TimeLineData.length
+				TimeLineData.length
 			);
 
 			setActiveItem(index);
@@ -81,9 +80,8 @@ export function TimeLine() {
 										? "none"
 										: `${index === 0 ? "translateY(250px)" : `translateY(${200 / index}px)`}`,
 									opacity: isInView ? 1 : 0,
-									transition: `all 0.9s cubic-bezier(0.17, 0.55, 0.55, 1) ${
-										index === 0 ? 0.5 : 1.05 * index
-									}s`
+									transition: `all 0.9s cubic-bezier(0.17, 0.55, 0.55, 1) ${index === 0 ? 0.5 : 1.05 * index
+										}s`
 								}}
 							>
 								<h3

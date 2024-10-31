@@ -9,15 +9,13 @@ import { FiExternalLink } from "react-icons/fi";
 import "react-image-gallery/styles/css/image-gallery.css";
 
 export function ProjectItem({ project, index }) {
-	const { description, images, liveUrl, repoUrl, stack, title } = project;
+	let { description, images, liveUrl, repoUrl, stack, title } = project;
 	const cardRef = useRef(null);
 	const isInView = useInView(cardRef, { once: true });
 
-	const galleryImages = images.map((img) => ({
-		original: img,
-		loading: "lazy"
-	}));
-
+	
+	const galleryImages = images;
+	stack ={tag:'1'}
 	return (
 		<article
 			ref={cardRef}
@@ -55,8 +53,8 @@ export function ProjectItem({ project, index }) {
 					</p>
 				</header>
 
-				<footer className="flex flex-col gap-10">
-					{!!stack.length && (
+				 <footer className="flex flex-col gap-10">
+				 {!!stack.length && (
 						<div className="flex-center flex-wrap gap-3">
 							{stack.map((tag) => (
 								<span
@@ -68,7 +66,8 @@ export function ProjectItem({ project, index }) {
 								</span>
 							))}
 						</div>
-					)}
+					)
+				}
 
 					<div className="flex-center gap-10">
 						{repoUrl && (
@@ -94,7 +93,7 @@ export function ProjectItem({ project, index }) {
 							</Link>
 						)}
 					</div>
-				</footer>
+				</footer> 
 			</div>
 		</article>
 	);
