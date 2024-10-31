@@ -16,10 +16,10 @@ export function WelcomeSection() {
 
 	let [count, setCount] = useState(0);
 	const [text] = useState([
-		"build React Native for Android/iOS",
-		"convert design into modern UI",
-		"build interactive UI using React",
-		"develop websites using Next.js",
+		"Build React Native for Android/iOS",
+		"Convert design into modern UI",
+		"Build interactive UI using React",
+		"Develop websites using Next.js",
 		"Develop Angular Applications"
 	]);
 
