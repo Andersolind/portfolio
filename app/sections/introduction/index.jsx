@@ -20,7 +20,8 @@ export function WelcomeSection() {
 		"Convert design into modern UI",
 		"Build interactive UI using React",
 		"Develop websites using Next.js",
-		"Develop Angular Applications"
+		"Develop Angular Applications",
+		"Implemented Keycloak OpenID Connect Configuration"
 	]);
 
 	const onClick = (e) => scrollToEl(e);
